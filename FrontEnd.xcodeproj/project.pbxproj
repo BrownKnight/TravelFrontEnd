@@ -11,6 +11,14 @@
 		078BC1582B05550100388357 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BC1572B05550100388357 /* ContentView.swift */; };
 		078BC15A2B05550300388357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078BC1592B05550300388357 /* Assets.xcassets */; };
 		078BC15D2B05550300388357 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078BC15C2B05550300388357 /* Preview Assets.xcassets */; };
+		078BC1642B0556D200388357 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 078BC1632B0555E000388357 /* data.json */; };
+		078BC1662B05579300388357 /* Itineraries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BC1652B05579300388357 /* Itineraries.swift */; };
+		078BC1682B0558F900388357 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BC1672B0558F900388357 /* ModelData.swift */; };
+		078BC16B2B0559E000388357 /* PinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BC16A2B0559E000388357 /* PinRowView.swift */; };
+		078BC16D2B055D8D00388357 /* PinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BC16C2B055D8C00388357 /* PinListView.swift */; };
+		078BC16F2B055FFE00388357 /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BC16E2B055FFE00388357 /* ItineraryView.swift */; };
+		078BC1712B0564F600388357 /* ItineraryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BC1702B0564F600388357 /* ItineraryRowView.swift */; };
+		078BC1732B05656C00388357 /* ItineraryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078BC1722B05656C00388357 /* ItineraryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		078BC1572B05550100388357 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		078BC1592B05550300388357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		078BC15C2B05550300388357 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		078BC1632B0555E000388357 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		078BC1652B05579300388357 /* Itineraries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itineraries.swift; sourceTree = "<group>"; };
+		078BC1672B0558F900388357 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		078BC16A2B0559E000388357 /* PinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinRowView.swift; sourceTree = "<group>"; };
+		078BC16C2B055D8C00388357 /* PinListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinListView.swift; sourceTree = "<group>"; };
+		078BC16E2B055FFE00388357 /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
+		078BC1702B0564F600388357 /* ItineraryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryRowView.swift; sourceTree = "<group>"; };
+		078BC1722B05656C00388357 /* ItineraryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +71,13 @@
 				078BC1572B05550100388357 /* ContentView.swift */,
 				078BC1592B05550300388357 /* Assets.xcassets */,
 				078BC15B2B05550300388357 /* Preview Content */,
+				078BC1632B0555E000388357 /* data.json */,
+				078BC1692B05597A00388357 /* Models */,
+				078BC16A2B0559E000388357 /* PinRowView.swift */,
+				078BC16C2B055D8C00388357 /* PinListView.swift */,
+				078BC16E2B055FFE00388357 /* ItineraryView.swift */,
+				078BC1702B0564F600388357 /* ItineraryRowView.swift */,
+				078BC1722B05656C00388357 /* ItineraryListView.swift */,
 			);
 			path = FrontEnd;
 			sourceTree = "<group>";
@@ -65,6 +88,15 @@
 				078BC15C2B05550300388357 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		078BC1692B05597A00388357 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				078BC1652B05579300388357 /* Itineraries.swift */,
+				078BC1672B0558F900388357 /* ModelData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +127,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					078BC1512B05550100388357 = {
 						CreatedOnToolsVersion = 14.2;
@@ -126,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				078BC15D2B05550300388357 /* Preview Assets.xcassets in Resources */,
+				078BC1642B0556D200388357 /* data.json in Resources */,
 				078BC15A2B05550300388357 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078BC16B2B0559E000388357 /* PinRowView.swift in Sources */,
+				078BC1662B05579300388357 /* Itineraries.swift in Sources */,
+				078BC1682B0558F900388357 /* ModelData.swift in Sources */,
+				078BC1712B0564F600388357 /* ItineraryRowView.swift in Sources */,
+				078BC16D2B055D8D00388357 /* PinListView.swift in Sources */,
 				078BC1582B05550100388357 /* ContentView.swift in Sources */,
 				078BC1562B05550100388357 /* FrontEndApp.swift in Sources */,
+				078BC1732B05656C00388357 /* ItineraryListView.swift in Sources */,
+				078BC16F2B055FFE00388357 /* ItineraryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +189,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -181,6 +222,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -195,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -209,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -241,6 +284,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -249,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,9 +308,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FrontEnd/Preview Content\"";
+				DEVELOPMENT_TEAM = KED4M385SL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,6 +320,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,6 +328,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TravelPal.FrontEnd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,9 +340,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FrontEnd/Preview Content\"";
+				DEVELOPMENT_TEAM = KED4M385SL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +352,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +360,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = TravelPal.FrontEnd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
