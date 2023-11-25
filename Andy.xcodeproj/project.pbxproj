@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		078BC1522B05550100388357 /* FrontEnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrontEnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078BC1522B05550100388357 /* Andy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Andy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078BC1552B05550100388357 /* FrontEndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontEndApp.swift; sourceTree = "<group>"; };
 		078BC1572B05550100388357 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		078BC1592B05550300388357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		078BC1492B05550100388357 = {
 			isa = PBXGroup;
 			children = (
-				078BC1542B05550100388357 /* FrontEnd */,
+				078BC1542B05550100388357 /* Andy */,
 				078BC1532B05550100388357 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,12 +59,12 @@
 		078BC1532B05550100388357 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				078BC1522B05550100388357 /* FrontEnd.app */,
+				078BC1522B05550100388357 /* Andy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		078BC1542B05550100388357 /* FrontEnd */ = {
+		078BC1542B05550100388357 /* Andy */ = {
 			isa = PBXGroup;
 			children = (
 				078BC1552B05550100388357 /* FrontEndApp.swift */,
@@ -79,7 +79,7 @@
 				078BC1702B0564F600388357 /* ItineraryRowView.swift */,
 				078BC1722B05656C00388357 /* ItineraryListView.swift */,
 			);
-			path = FrontEnd;
+			path = Andy;
 			sourceTree = "<group>";
 		};
 		078BC15B2B05550300388357 /* Preview Content */ = {
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		078BC1512B05550100388357 /* FrontEnd */ = {
+		078BC1512B05550100388357 /* Andy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 078BC1602B05550300388357 /* Build configuration list for PBXNativeTarget "FrontEnd" */;
+			buildConfigurationList = 078BC1602B05550300388357 /* Build configuration list for PBXNativeTarget "Andy" */;
 			buildPhases = (
 				078BC14E2B05550100388357 /* Sources */,
 				078BC14F2B05550100388357 /* Frameworks */,
@@ -114,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = FrontEnd;
+			name = Andy;
 			productName = FrontEnd;
-			productReference = 078BC1522B05550100388357 /* FrontEnd.app */;
+			productReference = 078BC1522B05550100388357 /* Andy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 078BC14D2B05550100388357 /* Build configuration list for PBXProject "FrontEnd" */;
+			buildConfigurationList = 078BC14D2B05550100388357 /* Build configuration list for PBXProject "Andy" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				078BC1512B05550100388357 /* FrontEnd */,
+				078BC1512B05550100388357 /* Andy */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +311,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FrontEnd/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Andy/Preview Content\"";
 				DEVELOPMENT_TEAM = KED4M385SL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -326,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TravelPal.FrontEnd;
+				PRODUCT_BUNDLE_IDENTIFIER = Roam.Andy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -343,7 +343,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FrontEnd/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Andy/Preview Content\"";
 				DEVELOPMENT_TEAM = KED4M385SL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -358,7 +358,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TravelPal.FrontEnd;
+				PRODUCT_BUNDLE_IDENTIFIER = Roam.Andy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -370,7 +370,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		078BC14D2B05550100388357 /* Build configuration list for PBXProject "FrontEnd" */ = {
+		078BC14D2B05550100388357 /* Build configuration list for PBXProject "Andy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				078BC15E2B05550300388357 /* Debug */,
@@ -379,7 +379,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		078BC1602B05550300388357 /* Build configuration list for PBXNativeTarget "FrontEnd" */ = {
+		078BC1602B05550300388357 /* Build configuration list for PBXNativeTarget "Andy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				078BC1612B05550300388357 /* Debug */,
